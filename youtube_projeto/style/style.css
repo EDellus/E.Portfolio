@@ -1,0 +1,340 @@
+body{
+    margin-top:0px;
+    width: 95%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo{
+    width: 100%;
+    min-width: 900px;
+    padding: 18px 20px;
+    display: flex;
+    background-color: white;
+    border-color:white;
+    z-index: 1;
+
+    position: relative;
+    position: fixed;
+
+}
+
+.topo-left{
+    position:absolute;
+    padding-top: 13px;
+    top: 10%;
+}
+
+.topo-left:hover{
+    cursor: pointer;
+}
+
+.icone-left{
+    font-size: 18px;
+    margin: -5px;
+    padding: 8px;
+}
+
+.icone-left:hover{
+    background-color: rgba(128, 128, 128, 0.25);
+    border-radius: 50px;
+}
+    
+.image-left{
+    width: 100%;
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+.topo-center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: -50px;
+    margin-top: -5px;
+}
+
+.search-topo{
+    padding: 10px 10px;
+    width: 50%;
+    max-width: 550px;
+    margin-left: 100px;
+    margin-top: -5px;
+    outline-color:blue;
+    border-radius: 50px 0px 0px 50px;
+    border: solid 1px lightgrey;
+}
+
+.button-search{
+   padding: 10px 25px;
+   margin-top: -5px;
+   border-radius: 0px 50px 50px 0px;
+   border: solid 1px lightgrey;
+}
+
+.button-search{
+    cursor: pointer;
+}
+
+.mic-topo{
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.mic-topo:hover{
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.281)
+}
+
+.topo-right{
+    float: right;
+    padding-top: 13px;
+    position: absolute;
+    right: 5%;
+    top: 5%
+}
+
+.grip-topo{
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: grey;
+}
+
+.grip-topo:hover{
+    cursor: pointer;
+}
+
+.login-topo{
+    margin-left: 20px;
+    padding: 8px 15px;
+    margin-top: -5px;
+    margin-bottom: 2px;
+    font-size: 13px;
+    color: blue;
+    background-color:white;
+    border-radius: 50px;
+    border: solid 1px lightgrey;
+    font-weight: bold;
+}
+
+.login-icone{
+    font-size: 20px;
+}
+
+.login-topo:hover{
+    background-color: rgba(0, 174, 255, 0.116);
+    cursor: pointer;
+}
+
+.lateral{
+    min-width: 220px;
+    height: 100vh;
+    margin-top: 60px;
+    position: fixed;
+}
+
+
+.item-lateral{
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+.item-lateral:hover{
+    cursor: pointer;
+}
+
+.item-lateral:hover{
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 10px;
+}
+
+
+.icone-lateral{
+    margin-left: 10px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+
+.separator{
+    height: 1px;
+    background-color: rgb(209,209,209);
+    margin-top: 10px;
+    
+}
+
+.curta-lateral{
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 150px;
+    width: 100%;
+}
+
+.explorar-lateral{
+    margin-left: 20px;
+}
+
+.meio{
+    margin-top: 60px;
+    margin-left: 220px;
+}
+
+.tag-meio{
+    display:flex;
+    background-color: white;
+    width: 100%;
+    min-width: 900px;
+    padding-bottom: 5px;
+    z-index: 1;
+    position:fixed;
+}
+
+.tag-item{
+    margin-left: 35px;
+    font-size: 15px;
+    padding: 8px;
+    width:max-content;
+}
+
+.tag-item:hover {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container-meio-lateral{
+    display: flex;
+}
+
+.banner{
+    background-image: url(../images/banner.jpeg);
+    background-position: center, right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 260px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.banner > h1{
+    font-size: 30px;
+    width: 470px;
+    margin-top: -10px;
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+.youtube-music-logo{
+    width: auto;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+.baixar-btn{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 9px 15px;   
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fechar-btn{
+    position:absolute;
+    top: 13%;
+    right: 1%;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.area-video{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin-left: 5px;
+    padding-top: 65px;
+    padding-left: 40px;
+    background-color: rgba(128, 128, 128, 0.2)
+}
+
+.item-video{
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 15px;
+    margin-bottom: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+
+    
+}
+
+.thumb{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.time{
+    font-size:12px;
+    background-color: rgba(0, 0, 0, 0.747);
+    color:white;
+    padding:4px;
+    border-radius: 5px;
+
+    position: absolute;
+    margin-top: 140px;
+    margin-left:-45px;
+}
+
+.icone-canal{
+    width: 100%;
+    max-width: 35px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+}
+
+.titulo-video{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 245px;
+    float: right;    
+}
+
+.nome-canal{
+    margin-left: 55px;
+    margin-bottom: -10px;
+    color:rgb(128, 128, 128);
+}
+
+.verificado-canal{
+    font-size: 12px;
+}
+
+.view-video{
+    margin-left: 55px;
+    font-size: .8em;
+    color: grey
+}
